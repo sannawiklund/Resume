@@ -1,11 +1,9 @@
-/* Globala egenskaper */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Sidnivåegenskaper */
 html {
     scroll-behavior: smooth;
 }
@@ -21,7 +19,6 @@ body {
     min-height: 100vh;
 }
 
-/* Översättning och layout */
 .resume-container {
     justify-content: center;
     align-items: center;
@@ -31,7 +28,6 @@ body {
     padding: auto;
 }
 
-/* Header och bild */
 header {
     display: grid;
     grid-template-rows: repeat(1, auto);
@@ -50,7 +46,6 @@ img {
     border-radius: 50%;
 }
 
-/* Kontakttext och popup */
 #contact-text {
     position: absolute;
     bottom: 54%;
@@ -84,7 +79,6 @@ img {
     margin-bottom: 10px;
 }
 
-/* Sociala ikoner och länkar */
 .social-icon {
     width: 45px;
     height: 45px;
@@ -98,7 +92,6 @@ img {
     color: #c8f2ff;
 }
 
-/* Om mig-sektionen */
 #about-me {
     padding: 20px;
     font-size: 15px;
@@ -120,7 +113,6 @@ img {
     font-weight: bolder;
 }
 
-/* Huvudcontainer och gridboxar */
 #main-container {
     display: grid;
     grid-template-rows: repeat(2, auto);
@@ -139,7 +131,6 @@ img {
     font-size: 15px;
 }
 
-/* Hover-effekt på gridboxar */
 #experience:hover,
 #education:hover,
 #skills:hover,
@@ -149,7 +140,6 @@ img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Rubriker och listor */
 h1,
 h2 {
     color: #e81dc3;
@@ -170,38 +160,6 @@ ul {
 li {
     margin-bottom: 8px;
 }
-
-/* @media screen and (max-width: 1285) {
-    #contact-text {
-        position: absolute;
-        bottom: 54%;
-        left: 10%;
-        transform: translateX(-50%);
-        background-color: #45454592;
-        color: #f5d2ff;
-        padding: 5px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 21px;
-        font-weight: bolder;
-    }
-    
-    #contact-popup {
-        display: none;
-        position: absolute;
-        top: 110px;
-        left: 345px;
-        justify-content: center;
-        background-color: #454545bd;
-        color: #ffffff;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        z-index: 1;
-        text-align: center;
-        font-size: 17px;
-    }
-
-} */
 
 /* Media queries för responsiv design */
 @media screen and (max-width: 1286px) {
