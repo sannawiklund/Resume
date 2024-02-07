@@ -38,7 +38,6 @@ header {
 }
 
 img {
-    /* position: relative; */
     z-index: 0;
     width: 100%;
     max-width: 350px;
@@ -56,7 +55,7 @@ img {
     grid-column: 1 / 1;
     grid-row: 3 / 3;
     background-color: #45454592;
-    color: #f5d2ff;
+    color: #ffd940;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -98,7 +97,7 @@ img {
 }
 
 #linkedin-link {
-    color: #c8f2ff;
+    color: #ffac1e; 
 }
 
 #about-me {
@@ -107,19 +106,20 @@ img {
 }
 
 #l-text {
-    color: #ffd940;
+    color: #ffac1e;
     font-style: italic;
     font-weight: bolder;
 }
 
 #about-me>h2 {
-    color: #e81dc3;
+    color: #D963B6;
     font-size: 20px;
 }
 
 .header-text {
-    color: #f5d2ff;
+    color: #ffd940;
     font-weight: bolder;
+    font-style: italic
 }
 
 #main-container {
@@ -151,7 +151,7 @@ img {
 
 h1,
 h2 {
-    color: #e81dc3;
+    color: #D963B6;
     font-size: 20px;
 }
 
@@ -181,7 +181,7 @@ li {
         grid-column: 1 / 1;
         grid-row: 3 / 3;
         background-color: #45454592;
-        color: #f5d2ff;
+        color: #ffd940;
         padding: 5px;
         border-radius: 5px;
         cursor: pointer;
